@@ -18,4 +18,7 @@
 # 20
 
 p "Enter a number:"
-
+input_no = gets.chomp.to_i
+1.upto(10) do |times_table|
+  p input_no * times_table
+end
